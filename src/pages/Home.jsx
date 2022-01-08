@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import img from "../images/Frame.png";
-import Cards from "../Components/Cards";
-import {Container} from "../Components/Cards";
+import Cards from "../components/Cards";
+import {Container} from "../components/Cards";
 import About from "./About";
 import Stories from "./Stories";
 
-// Components
+// components
 
 
 class Home extends Component {
