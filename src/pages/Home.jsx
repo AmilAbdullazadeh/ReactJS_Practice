@@ -6,8 +6,6 @@ import About from "./About";
 import Stories from "./Stories";
 
 // components
-
-
 class Home extends Component {
     constructor(props) {
         super(props);

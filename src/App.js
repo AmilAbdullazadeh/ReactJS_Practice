@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Stories from "./pages/Stories";
 import Contact from "./pages/Contact";
+import Posts from "./pages/Posts";
 
 // router
 import {
@@ -34,6 +35,7 @@ function App() {
                         <li><Link to="/about/red">Red About</Link></li>
                         <li><Link to="/stories">Stories</Link></li>
                         <li><Link to="/contact">Contact</Link></li>
+                        <li><Link to="/posts">Posts</Link></li>
                     </List>
                 </nav>
                 <Switch>
@@ -48,6 +50,9 @@ function App() {
                     </Route>
                     <Route path="/contact">
                         <Contact/>
+                    </Route>
+                    <Route path="/posts">
+                        <Posts/>
                     </Route>
                 </Switch>
             </BrowserRouter>
