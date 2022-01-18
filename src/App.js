@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Stories from "./pages/Stories";
 import Contact from "./pages/Contact";
 import Posts from "./pages/Posts";
+import Menu from "./pages/Menu";
 
 // router
 import {
@@ -36,6 +37,7 @@ function App() {
                         <li><Link to="/stories">Stories</Link></li>
                         <li><Link to="/contact">Contact</Link></li>
                         <li><Link to="/posts">Posts</Link></li>
+                        <li><Link to="/menu">Menu</Link></li>
                     </List>
                 </nav>
                 <Switch>
@@ -53,6 +55,9 @@ function App() {
                     </Route>
                     <Route path="/posts">
                         <Posts/>
+                    </Route>
+                    <Route path="/menu">
+                        <Menu/>
                     </Route>
                 </Switch>
             </BrowserRouter>
